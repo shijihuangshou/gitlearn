@@ -1,4 +1,6 @@
 ﻿git init   初始化git目录
 git add <file>
 git commit -m <message>
+git status 查看git状态
+git diff 查看修改内容
 
