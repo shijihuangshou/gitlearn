@@ -4,3 +4,5 @@ git commit -m <message>
 git status 查看git状态
 git diff 查看修改内容
 
+git log 查看log
+git reset --hard HEAD^   回退一个版本  HEAD^ ^ 回退两个版本  HEAD~100 回退一百个版本
