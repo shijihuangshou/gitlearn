@@ -5,7 +5,21 @@ git status 查看git状态
 git diff 查看修改内容
 
 git log 查看log
-git reset --hard HEAD^   回退一个版本  HEAD^ ^ 回退两个版本  HEAD~100 回退一百个版本
+git reset --hard HEAD^   回退一个版本  HEAD^ ^ 回退两个版本  HEAD~100 回退一百个版本 
 git reset --hard 版本号  退回到某一个版本
 
 git reflog  查看操作记录
+
+git reset --hard HEAD^
+
+
+git checkout -- readme.txt ： 
+1.在工作区修改了文件, 但是还没有add到暂存区
+执行下面的命令, 可以恢复到与最后的版本一致的状态, 也就是修改前的状态
+
+2.已经add到暂存区, 然后在工作区修改了文件
+执行下面的命令, 可以恢复到和暂存区一致的状态
+
+git reset HEAD 文件名
+1.修改了文件, 又add到了暂存区, 但是还没有commit
+执行下面的命令, 可以将暂存区的文件退回到工作区
