@@ -35,3 +35,13 @@ git remote add origin git@github.com:michaelliao/learngit.git   关联远程库
 git push [-u] origin master 推送到远程库
 
 git clone git@github.com:shijihuangshou/gitskills.git  本地check out 远程库
+
+git branch  git查看分支
+
+git switch -c 分支名  创建并且切换到分支
+
+git switch 分支名   切换到分支
+
+git merge 合并分支
+
+git branch -d 分支名  删除分支
