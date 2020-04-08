@@ -18,3 +18,5 @@ checkInnerPlayerCanCostGold
 git no Fast forward
 
 git branch dev
+
+fix bug 101
