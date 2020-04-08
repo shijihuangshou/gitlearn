@@ -45,3 +45,7 @@ git switch 分支名   切换到分支
 git merge 合并分支
 
 git branch -d 分支名  删除分支
+
+git log --graph 查看分支合并情况
+
+git merge --no-ff -m "merge with no-ff" dev  (git merge 默认会使用 Fast forward 模式，会将分支删掉， --no-ff 会生成一个提交不会删除分支)
