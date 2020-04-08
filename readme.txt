@@ -16,3 +16,5 @@ Creating a new branch is quick and simple.
 checkInnerPlayerCanCostGold
 
 git no Fast forward
+
+git branch dev
